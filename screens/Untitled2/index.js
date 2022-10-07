@@ -4,7 +4,7 @@ import { View, StyleSheet } from "react-native";
 
 const Untitled2 = () => {
   return <View style={_styles.ELNwmJgU}>
-      <View style={_styles.KLjjlphZ}></View><Pressable onPress={() => navigation.navigate("Untitled1")} style={_styles.CnOwtyWt}><View style={_styles.UMgtTrCx}></View></Pressable></View>;
+      <Pressable onPress={() => navigation.navigate("Untitled3")} style={_styles.igfvfsUT}><View style={_styles.KLjjlphZ}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled1")} style={_styles.CnOwtyWt}><View style={_styles.UMgtTrCx}></View></Pressable></View>;
 };
 
 export default Untitled2;
@@ -40,6 +40,9 @@ const _styles = StyleSheet.create({
     position: "unset"
   },
   CnOwtyWt: {
+    position: "unset"
+  },
+  igfvfsUT: {
     position: "unset"
   }
 });
