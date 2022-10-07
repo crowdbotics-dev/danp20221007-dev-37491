@@ -4,7 +4,7 @@ import { View, StyleSheet } from "react-native";
 
 const Untitled2 = () => {
   return <View style={_styles.ELNwmJgU}>
-      <Pressable onPress={() => navigation.navigate("Untitled1")} style={_styles.CZJLuZIM}><View style={_styles.KLjjlphZ}></View></Pressable><View style={_styles.UMgtTrCx}></View></View>;
+      <View style={_styles.KLjjlphZ}></View><Pressable onPress={() => navigation.navigate("Untitled1")} style={_styles.CnOwtyWt}><View style={_styles.UMgtTrCx}></View></Pressable></View>;
 };
 
 export default Untitled2;
@@ -37,6 +37,9 @@ const _styles = StyleSheet.create({
     color: "#777777"
   },
   CZJLuZIM: {
+    position: "unset"
+  },
+  CnOwtyWt: {
     position: "unset"
   }
 });
