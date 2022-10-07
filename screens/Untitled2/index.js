@@ -1,9 +1,10 @@
+import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled2 = () => {
   return <View style={_styles.ELNwmJgU}>
-      <View style={_styles.KLjjlphZ}></View><View style={_styles.UMgtTrCx}></View></View>;
+      <Pressable onPress={() => navigation.navigate("Untitled1")} style={_styles.CZJLuZIM}><View style={_styles.KLjjlphZ}></View></Pressable><View style={_styles.UMgtTrCx}></View></View>;
 };
 
 export default Untitled2;
@@ -34,5 +35,8 @@ const _styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  CZJLuZIM: {
+    position: "unset"
   }
 });
