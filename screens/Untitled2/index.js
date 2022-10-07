@@ -3,7 +3,7 @@ import { View, StyleSheet } from "react-native";
 
 const Untitled2 = () => {
   return <View style={_styles.ELNwmJgU}>
-      <View style={_styles.KLjjlphZ}></View></View>;
+      <View style={_styles.KLjjlphZ}></View><View style={_styles.UMgtTrCx}></View></View>;
 };
 
 export default Untitled2;
@@ -18,6 +18,16 @@ const _styles = StyleSheet.create({
   KLjjlphZ: {
     left: 48,
     top: 90,
+    position: "absolute",
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  UMgtTrCx: {
+    left: 42,
+    top: 252,
     position: "absolute",
     height: 60,
     width: 140,
